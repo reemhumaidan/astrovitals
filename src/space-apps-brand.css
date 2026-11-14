@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700;800;900&family=Overpass:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap');
+
+:root {
+  color-scheme: light;
+  font-family: 'Overpass', 'DM Sans', sans-serif;
+  color: #07173f;
+  background: #fff;
+  --ink: #07173f;
+  --muted: #273e66;
+  --line: #d4deef;
+  --paper: #fff;
+  --forest: #07173f;
+  --mint: #eaff07;
+  --green: #0042a6;
+  --amber: #8e1100;
+}
+
+html,
+body,
+#root,
+.app-shell,
+.main-content,
+.page-wrap {
+  background: #fff;
+  color: #07173f;
+}
+
+body {
+  font-family: 'Overpass', 'DM Sans', sans-serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid #0960e1;
+  outline-offset: 3px;
+}
+
+h1,
+h2,
+.brand-name,
+.auth-visual-copy h1,
+.environment-card > strong,
+.status-banner__copy strong,
+.metric-value,
+.health-history__check-list li > strong {
+  font-family: 'Fira Sans', 'Overpass', sans-serif;
+}
+
+.sidebar {
+  background: #07173f;
+}
+
+.brand-mark {
+  border-color: #2e96f5;
+  background: #0042a6;
+  color: #eaff07;
+}
+
+.brand-name,
+.crew-mini strong {
+  color: #fff;
+}
+
+.brand-name span,
+.sidebar-section-label,
+.crew-mini span,
+.sidebar-foot {
+  color: #c3d4f4;
+}
+
+.side-nav__item {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  text-align: left;
+  font: inherit;
+}
+
+.side-nav__item:hover,
+.side-nav__item.is-active {
+  background: #0042a6;
+  color: #fff;
+}
+
+.side-nav__item.is-active > svg {
+  color: #eaff07;
+  background: transparent;
+}
+
+.nav-indicator {
+  background: #eaff07;
+}
+
+.nav-count {
+  background: #eaff07;
+  color: #07173f;
+}
+
+.live-pip {
+  background: #eaff07;
+}
+
+.crew-avatar,
+.avatar-button {
+  background: #eaff07;
+  color: #07173f;
+}
+
+.main-content,
+.topbar,
+.page-wrap,
+.metric-card,
+.content-panel,
+.environment-card,
+.auth-main,
+.auth-card {
+  background: #fff;
+}
+
+.topbar {
+  border-color: #d4deef;
+}
+
+.breadcrumb,
+.breadcrumb b,
+.eyebrow,
+.page-subtitle,
+.updated,
+.section-heading h2,
+.metric-label,
+.panel-copy,
+.environment-name,
+.auth-intro,
+.field-label,
+.auth-disclaimer,
+.auth-card label {
+  color: #07173f;
+}
+
+.breadcrumb span,
+.page-subtitle span {
+  color: #2e96f5;
+}
+
+.eyebrow-line {
+  background: #0960e1;
+}
+
+.mission-tag,
+.prototype-pill {
+  border-color: #0042a6;
+  color: #0042a6;
+}
+
+.primary-button,
+.auth-submit {
+  border-color: #0960e1;
+  background: #0960e1;
+  color: #fff;
+}
+
+.primary-button:hover,
+.auth-submit:hover {
+  border-color: #0042a6;
+  background: #0042a6;
+}
+
+.secondary-button {
+  border-color: #0042a6;
+  background: #fff;
+  color: #0042a6;
+}
+
+.auth-page {
+  background: #fff;
+}
+
+.auth-visual {
+  background: linear-gradient(135deg, #0042a6 0%, #07173f 100%);
+  color: #fff;
+}
+
+.auth-visual-copy > span,
+.auth-visual-foot {
+  color: #eaff07;
+}
+
+.auth-visual-copy h1,
+.auth-visual-copy p {
+  color: #fff;
+}
+
+.auth-visual-copy h1 em {
+  color: #eaff07;
+}
+
+.orbit-ring {
+  border-color: #2e96f5;
+}
+
+.orbit-ring--two {
+  border-color: #0960e1;
+}
+
+.orbit-core {
+  border-color: #eaff07;
+  background: #0042a6;
+  color: #eaff07;
+}
+
+.orbit-point {
+  border-color: #07173f;
+  background: #eaff07;
+}
+
+.orbit-point--two {
+  background: #2e96f5;
+}
+
+.auth-card,
+.device-checks,
+.device-assignment,
+.assessment-row,
+.content-panel {
+  border-color: #d4deef;
+}
+
+.auth-kicker,
+.demo-codes code,
+.auth-switch,
+.demo-codes button:hover {
+  color: #0042a6;
+}
+
+.demo-codes button:hover,
+.device-check,
+.auth-notice {
+  background: #fff;
+}
+
+.device-check input,
+.device-assignment input {
+  accent-color: #0960e1;
+}
+
+.metric-icon,
+.device-assignment-icon {
+  background: #0042a6;
+  color: #eaff07;
+}
+
+.metric-card,
+.environment-card,
+.content-panel,
+.device-assignment {
+  border-color: #d4deef;
+}
+
+.device-assignment.is-assigned {
+  border-color: #0960e1;
+  background: #fff;
+}
+
+.status-banner {
+  border-color: #d4deef;
+  border-left-color: #e43700;
+  background: #fff;
+}
+
+.status-banner__icon {
+  background: #07173f;
+  color: #eaff07;
+}
+
+.status-overline,
+.status-banner__meta span,
+.status-banner__copy strong,
+.status-banner__copy p {
+  color: #07173f;
+}
+
+.status-chip {
+  background: #07173f;
+  color: #fff;
+}
+
+.banner-link,
+.text-button,
+.subtle-link,
+.page-link-button {
+  color: #0042a6;
+}
+
+.notice,
+.info-strip,
+.empty-alerts,
+.empty-state {
+  border-color: #d4deef;
+  background: #fff;
+  color: #07173f;
+}
+
+.notice--error {
+  border-color: #8e1100;
+  background: #fff;
+  color: #8e1100;
+}
+
+.status-dot {
+  background: #0960e1;
+  box-shadow: 0 0 0 3px #dceaff;
+}
+
+.status-dot--amber {
+  background: #eaff07;
+  box-shadow: 0 0 0 3px #07173f;
+}
+
+.metric-value,
+.environment-card > strong,
+.risk-copy strong,
+.alert-body p,
+.alert-category,
+.data-table td,
+.data-table th,
+.assessment-row b {
+  color: #07173f;
+}
+
+.risk-value,
+.risk-value small,
+.assessment-row span,
+.subtle-copy {
+  color: #273e66;
+}
+
+.alert-row,
+.risk-row,
+.data-table tr,
+.health-history {
+  border-color: #d4deef;
+  background: #fff;
+}
+
+.health-history__line,
+.health-history__point {
+  stroke: #0960e1;
+}
+
+.health-history__check-list li {
+  border-color: #d4deef;
+  background: #fff;
+}
+
+.health-history__check-list li > strong {
+  color: #0042a6;
+}
+
+.toast {
+  border: 1px solid #2e96f5;
+  background: #07173f;
+  color: #fff;
+}
+
+@media (max-width: 760px) {
+  .sidebar {
+    background: #07173f;
+  }
+}
